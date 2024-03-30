@@ -1,0 +1,284 @@
+/* font 1 */
+/* font-family: "Arvo", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* font 2 */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400; 0,700; 1,400; 1.700&family=Prata&display=swap');
+/* font-family: "Prata", serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-image: url(/IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Prata", serif;
+    
+}
+.container-title{
+    background-color: rgba(0, 0, 0, 0.964);
+    width: 100%;
+    height: 70px;
+    opacity: 0.60;
+}
+.Imgs{
+    width: 250px;
+    min-width: 90px;
+    max-width: 250px;
+    height: auto;
+    margin-left: 38px;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Universal{
+    min-width: 95%;
+    width: 95%;
+    min-height: auto;
+    margin:120px auto 0 auto;
+    backdrop-filter: blur(40px);
+}
+
+
+
+/* contenedorDeContenidoOne */
+.contenedorOne{
+    width: 70%;
+    min-width: 70%;
+    min-height: auto;
+    background-color: rgba(35, 35, 35, 0.633);
+    float: left;
+    display: inline-block;
+    border-left: solid 3px rgb(246, 246, 246);
+    border-bottom: solid 3px rgb(246, 246, 246);
+    padding: 0px 5% 0px 5%;
+    
+    
+}
+/* ContenidoDelContainerOne */
+.Mayor{
+    margin-top: 60px ;
+    background-color: rgba(38, 38, 38, 0.475);
+    max-width: 750px;
+    min-width: 200px;
+    min-height: 400px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30);
+    margin-bottom: 5%;
+    
+}
+.Myor3{
+    border-top: solid 1.5px rgb(255, 0, 0);
+    margin-top: 5%;
+}
+.Myr4{
+    border-top: solid 1.5px rgb(255, 0, 0);
+    margin-top: 5%;
+    text-align: center;
+}
+.Img{
+    
+    border-top: solid 5px rgb(0, 0, 0);
+    border-bottom: solid 5px black;
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    height: 100%;  
+    text-align: left;
+    border-top: solid 5px rgb(0, 0, 0);
+    border-bottom: solid 5px black;
+    display: inline-block;
+}
+.Descripcion{
+    max-width: 350px;
+    min-width: 200px;
+    max-height: 600px;
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    border-top: solid 5px rgb(0, 0, 0);
+    border-bottom: solid 5px black;
+    display: inline-block;
+    float: left;
+}
+.FamousOne{
+    
+    
+    border-radius: 50%;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    height: 100%;  
+    margin: o auto 0 auto;
+    border-top: solid 5px rgb(0, 0, 0);
+    border-bottom: solid 5px black;
+    
+    
+}
+.ContenedorImgs{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* TEXTO DEL CONTENEDOR ONE */
+.Ttle1{
+    margin-top: 5%;
+    margin-bottom:5%;
+    font-size: 32px;
+    color: white;
+    opacity: 0.90;
+}
+.Ttle2{
+    margin-top: 3%;
+    font-size: 20px;
+    color: white;
+    opacity: 0.90;
+    margin-bottom: 0;
+}
+.Txt{
+    color: white;
+    font-size: 17px;
+    opacity: 0.55;
+}
+.ListP{
+    margin: 2.5% 0 2.5% 0;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    border-left: solid 1px red;
+    border-right: solid 1px red;
+    padding-left: 5px;
+    
+}
+.listH{
+    margin-left: 10%;
+    color: white;
+    font-size: 18px;
+    opacity: 0.55;
+}
+.sdaListaP{
+    
+    margin: 2.5% 0 2.5% 0;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
+}
+.sdaListaH{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    color: white;
+    font-size: 18px;
+    opacity: 0.55;
+    
+}
+.TtxT{
+    color: white;
+    font-size: 17px;
+    opacity: 0.55;
+    margin-bottom: 4%;
+}
+.Desp{
+    text-align: left;
+    margin-left:5% ;
+}
+.ListDesP{
+    border-left: solid 1px red;
+    border-right: solid 1px red;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
+}
+.ListaDesH{
+    margin: 2.5% 0 2.5% 0;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
+    opacity: 0.55;
+}
+/* ------------------------ */
+
+/* contenedoreDeContenidoDos*/
+.contenedorDos{
+    width: 29.5%;
+    min-height: auto;
+    height: 100%;
+    float: right;
+    display: inline-block;
+    background-color: rgba(32, 32, 32, 0.741);
+}
+
+.TextoAnclado{
+    margin-top: 10%;
+    width: auto;
+    height: auto;
+    padding: 0 5% 0 5%;
+    border-left:solid 2px rgb(250, 235, 215) ;
+    border-bottom:solid 2px rgb(250, 235, 215);
+}
+/* TEXTO DEL CONTENEDOR DOS */
+.Fuentes{
+    font-size: 17px;
+    color: rgb(212, 212, 212);
+    opacity: 0.55;
+    text-decoration: none;
+    border-bottom: solid 1px rgb(212, 212, 212);
+    border-left: solid 1px rgb(212, 212, 212);
+    
+}
+.Fuentes:hover{
+    box-shadow: 1px 0px 10px rgb(190, 190, 190);
+    background-color: rgba(0, 0, 0, 0.28);
+    opacity: 0.80;
+    transition: 0.4s;
+    
+}
+.Title{
+    font-size: 20px;
+    color: white;
+    opacity: 0.90;
+    
+}
+.Texto{
+    margin-top: 5%;
+    font-size: 17px;
+    color: white;
+    opacity: 0.55;
+}
+/* ------------------------ */
+
+/* MARCA */
+.Marca{
+    text-align: center;
+    border-top: solid 1.5px rgb(255, 0, 0);
+    margin-top: 5%;
+    color: rgb(139, 118, 3);
+    background-color: rgba(2, 3, 2, 0.673);
+    padding: 25px;
+    width: auto;
+    height: auto;
+    font-size: 7px;
+
+}
+.Marca:Hover{
+    font-size: 10px;
+    transition: 0.8s;
+}
